@@ -42,3 +42,8 @@ h1 {
 .mockup_image {
   width: 315px;
 }
+
+image { 
+  margin-top:25px;
+  margin-bottom:25px;
+}
