@@ -40,6 +40,10 @@ h1 {
     display: block;
 }
 
+.wireframes {
+  display: flex;
+}
+
 .wireframe_image {
   width: 400px;
   height: 335px;
@@ -49,7 +53,9 @@ h1 {
   width: 315px;
 }
 
-image { 
-  margin-top:25px;
-  margin-bottom:25px;
+img { 
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
