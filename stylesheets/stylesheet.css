@@ -4,13 +4,18 @@
   border: none;
 }
 
+.about_me {
+  text-align: center;
+}
+
 .name {
   text-align:right;
+  font-size: x-large;
 }
 
 html {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 7em;
+  margin-right: 7em;
   font-family:sans-serif;
   line-height: 1.5em;
 }
@@ -24,8 +29,8 @@ h1 {
   border-bottom: solid;
   border-bottom-width: thin;  
   border-top-width: thin;
-  padding-bottom: 3px;
-  padding-top: 3px;
+  padding-bottom: 0.75em;
+  padding-top: 0.75em;
 }
 
 .user_journey_image {
