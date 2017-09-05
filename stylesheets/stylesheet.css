@@ -41,7 +41,8 @@ h1 {
 }
 
 .wireframes {
-  display: flex;
+  display: block;
+  text-align: center;
 }
 
 .wireframe_image {
