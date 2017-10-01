@@ -32,7 +32,7 @@ h2 {
   padding-bottom: 0.75em;
   padding-top: 0.75em;
   display: block;
-  /*cursor: pointer;*/
+  cursor: pointer;
 }
 
 .user_journey_image {
