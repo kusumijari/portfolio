@@ -24,13 +24,15 @@ h2 {
   font-size: 15px;
 }
 
-h1 {
+.project_header {
   border-top: solid;
   border-bottom: solid;
   border-bottom-width: thin;  
   border-top-width: thin;
   padding-bottom: 0.75em;
   padding-top: 0.75em;
+  display: block;
+  /*cursor: pointer;*/
 }
 
 .user_journey_image {
@@ -59,4 +61,8 @@ img {
     margin-bottom:25px;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+.toggle_visibility {
+  display: none;
 }
