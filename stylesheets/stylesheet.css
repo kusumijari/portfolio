@@ -8,16 +8,18 @@
   text-align: center;
 }
 
-.name {
-  text-align:right;
-  font-size: x-large;
+.email {
+  text-align: left;
+  font-size: small;
 }
 
 html {
-  margin-left: 7em;
-  margin-right: 7em;
+  margin-left: 10em;
+  margin-right: 10em;
   font-family:sans-serif;
   line-height: 1.5em;
+  background: #f9f9fb;
+  color: #362651; 
 }
 
 h2 {
