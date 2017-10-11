@@ -10,7 +10,7 @@
 
 .email {
   text-align: left;
-  font-size: small;
+  font-size: medium;
 }
 
 html {
@@ -49,8 +49,20 @@ h2 {
   text-align: center;
 }
 
+.transition_image {
+  width: 215px;
+  height: 335px;
+  margin-left: 5em;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 4em;
+  font-size: 3em;
+}
+
 .wireframe_image {
-  width: 400px;
+  width: 325px;
   height: 335px;
 }
 
