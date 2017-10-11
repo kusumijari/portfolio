@@ -16,10 +16,17 @@
 html {
   margin-left: 10em;
   margin-right: 10em;
-  font-family:sans-serif;
+  margin-top: 4em;
+  margin-bottom: 5em;
+  font-family:lucida grande;
   line-height: 1.5em;
   background: #f9f9fb;
   color: #362651; 
+}
+
+body {
+  background: white;  
+  padding: 1em;
 }
 
 h2 {
