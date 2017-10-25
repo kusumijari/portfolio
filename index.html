@@ -7,287 +7,42 @@
 		<script src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 	</head>
 	<body>
-		<h1 class="main_heading">Kusum Ijari</h1>
+		<div class="header">
+			<h1 class="main_heading">Kusum Ijari</h1>
 
-		<p class="about_me"> I am currently a student at Arizona State University, studying to become a Interaction Designer. After two years of experience in software development, I hope to be able to combine my knowledge in development and design to create usable products. </p>
-		<p class="email">Email: kusumijari@gmail.com</p>
+			<p class="about_me"> I am currently a student at Arizona State University, studying to become a Interaction Designer. After two years of experience in software development, I hope to be able to combine my knowledge in development and design to create usable products. </p>
+			<p class="email">Email: kusumijari@gmail.com</p>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="image_column">
+				<img class="image" src="Images/Danglay/Danglay_logo.png">
+			</div>
+			<div class="title_column"> 
+				<a class="title" href="danglay.html" target="blank">Danglay - A car pooling application </a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="image_column">
+				<img class="image" src="Images/OI/OI_logo.png">
+			</div>
+			<div class="title_column"> 
+				<a class="title" href="oi.html" target="blank">Operational Insights</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="image_column">
+				<img class="image" src="Images/Trainline/Trainline_logo.png">
+			</div>
+			<div class="title_column"> 
+				<a class="title" href="trainline.html" target="blank">Trainline</a>
+			</div>
+		</div>
 
 		<div id="accordian">
-			<h1 class="expandable project_header" >Car Pool Application - Danglay</h1> 
-
-			<div class="toggle_visibility">
-				<h2>Problem :</h2> 
-				<p>As a new joinee to the company, one of the questions I had was if anyone lived close to my place, someone I could travel to and from work with. Asking around it was evident that that a lot of people were looking for the same thing. People usually tried to solve this problem by sending out emails to the entire office asking for people. The problem with this method was that there was no way for new joinees to know of the emails that were sent out before and were forced to send one out again. The information was also not consolidated in a single place and was hard to find. This is why a few of us decided to create an application that could be used to find out information about fellow travellers. </p>
-
-
-				<h2>Solution :</h2>
-
-
-				<div>
-					<img class = "transition_image" src = "Images/Wireframes/Home_page.png">
-
-					<span class="arrow">&#8594;</span>
-
-					<img class="transition_image" src = "Images/Mockups/Home_Page.png">
-
-					<span class="arrow">&#8594;</span>
-
-					<img class = "transition_image" src = "Images/Final Mockups/Search Page - Contracted cards.png">
-				</div>
-
-				<h2>Roles played :</h2> 
-				<p> User journey creation, Development</p>
-
-
-				<h2>Persona :</h2>
-				<p>After asking around, and from our own experience, we were able to gather common points about the users of this application. </p>
-
-				<ul>
-					<li>Drives to work alone and looking for someone to share the ride. </li>
-					<li>Has an Okta account.</li>
-					<li>Willing to make small route and time adjustments to accommodate the travel partners. </li>
-				</ul>	
-
-				<h2>User Journey :</h2>
-
-				<img class="user_journey_image" src = "Images/User_journey.png">
-
-
-				<li>A user by virtue of being an employee in the office would have an Okta account. The application would be available for them on their dashboard with all the other internal applications. The application would therefore have access to details like name and email address as soon they enter the application.</li>
-
-				<li>The home page of the application contains a list of all the current pools allowing the user to browse through them and join one if they find a suitable pool.</li>
-
-				<li> A user that has not registered on the application before would  be redirected to their profile page to update details like address and phone number which is not available through the Okta account. After updating these details, the join request is automatically sent. A notification and an email is sent out to the current members of the cab pool who can accept or reject that request. </li>
-
-				<li>If the user does not find a suitable pool currently they can create their own cab pool. Again if the user is unregistered, they are redirected to be registered. </li>
-
-				<li>A user can update their profile details at any time. </li>
-
-				<li>A user can leave a pool at any time. </li>  
-
-				<p>
-					Some of the initial wireframes created by me and another team member are below: 
-				</p>	         
-
-				<span class="wireframes">
-					<img class = "wireframe_image" src = "Images/Wireframes/Home_page.png">
-
-					<img class = "wireframe_image" src = "Images/Wireframes/Create_pool_page.png">
-
-					<img class = "wireframe_image" src = "Images/Wireframes/Home_page_with_pool.png">
-				</span>
-
-				<h2>Learnings :</h2>
-
-				<ul>
-					<li>
-						<b>Breaking down the solution</b> we had into small tasks that can be done parallely. Breaking them up into smaller tasks allowed us to get feedback sooner and make any changes needed faster.
-					</li>
-
-					<li>
-						Learning how to create <b>wireframes</b>.
-					</li>
-
-					<li>
-						There were times when we got carried away with some ideas, but <b>prioritising</b> and figuring out what can be <b>feasibly done</b>, given the resource and time constraints was something that we came to learn. 
-					</li>
-
-					<li>
-						<b>Set up of infrastructure</b> of an application from scratch, including which tech stack to use, after careful consideration of multiple features like performance, necessity and cost. 
-					</li>
-
-					<li>
-						Ruby on rails.
-					</li>
-
-					<li>
-						Bootstrap.
-					</li>
-				</ul>
-
-				<h2>Future plans (Iteration 2) :</h2>
-
-
-				<p>After feedback from users, we found that the things they would like to see in the future is to be able to book daily cabs. Keeping this in mind, I created some more mock ups, playing around with the UI a little more as well. 
-				</p>
-
-				<span class="wireframes">
-					<img class="mockup_image" src = "Images/Mockups/Home_Page.png">
-
-					<img class="mockup_image" src = "Images/Mockups/Expanded_cab_card.png">
-
-					<img class="mockup_image" src = "Images/Mockups/Request_sent.png">
-
-					<img class="mockup_image" src = "Images/Mockups/Create_a_pool_page.png">
-
-					<img class="mockup_image" src = "Images/Mockups/Create_a_pool_page_route_addition.png">
-
-					<img class="mockup_image" src = "Images/Mockups/Cab_pool_created.png">
-
-					<img class="mockup_image" src = "Images/Mockups/My_ride_page.png">
-
-					<img class="mockup_image" src = "Images/Mockups/Notification_page.png">
-				</span>
-
-				<h2>Iteration 3 :</h2>
-
-				<p>More feedback on the above mockups led to the following learnings and implementations: </p>			
-
-				<ul>
-					<li>
-						Clunky visual design. People did not like the look and feel of the application.
-					</li>
-
-					<li>
-						Having a seperate tab for 'Create a pool' didn't really make sense since most poeple were only doing this once in a while. This was changed to an easily available on the home page instead. 
-					</li>
-
-					<li>
-						The pop up notifications for 'request sent' was removed and the feedback was changed to be in the same place. 
-					</li>
-
-					<li>
-						The pop up notification for 'cab pool creation' was also removed and instead the user was just taken to their account page to show the completed creation.
-					</li>
-
-					<li>
-						Most people did not understand what 'Point A' and 'Point B' meant in the route addition page for cabpool creation was, so this was replaced with colloquial language.
-					</li>
-
-					<li>
-						People were creating pools and not deleting them if it was for just a one day use. This left a lot of unused pools in the search page. An option to set a date range on the pool was added, so the user could use this if they knew they wanted to use this for a certain period of time.
-					</li>
-
-					<li>
-						The emphasis was changed from the type of cab pool to the area of the cab pool, as that was the information the users were most interested in.
-					</li>
-				</ul>
-
-				<p>Keeping the above things in mind the following solution was created. </p>	
-
-				<span class="wireframes">
-					<img class = "mockup_image" src = "Images/Final Mockups/Search Page - Contracted cards.png">
-
-					<img class = "mockup_image" src = "Images/Final Mockups/Search Page - Expanded card .png">
-
-					<img class = "mockup_image" src = "Images/Final Mockups/Request sent notification.png">
-
-					<img class = "mockup_image" src = "Images/Final Mockups/Create new cab.png">
-
-					<img class = "mockup_image" src = "Images/Final Mockups/Create new cab - route addition.png">
-
-					<img class = "mockup_image" src = "Images/Final Mockups/My Account.png">
-
-					<img class = "mockup_image" src = "Images/Final Mockups/Search Page - Contracted cards - with notification.png">
-
-					<img class = "mockup_image" src = "Images/Final Mockups/Notification Page.png">
-
-					<img class = "mockup_image" src = "Images/Final Mockups/Notification Page Accepted.png">
-				</span>		
-
-
-			</div>	
-
-			<h1 class="expandable project_header">Operational Insights</h1>
-
-			<div class="toggle_visibility">
-				<h2>Description :</h2> 
-				<p>The visualisation, bringing together and forecasting of all common operational information of ThoughtWorks in one place. </p>
-
-
-				<h2>Duration of Participation :</h2> 
-				<p>1 year </p>
-
-				<h2>Role played :</h2>
-				<p>Developer, Shadow UX</p>
-
-
-				<h2>Learnings :</h2>
-				<ul>
-					<li>
-					This project allowed us to be in close contact with the users, as they were all employees of the company itself. This resulted in receiving <b>continual feedback</b> from the users allowing us to modify the product as we went along and really driving us to make user centric decisions. 
-					</li>
-
-					<li>
-					I got chances to shadow the Experience Designer on the team and understand the <b>design process</b>. I also shadowed <b>user interviews</b> which gave me a chance to see how the user directly interacts with the product for their use cases and participated in <b>design sprints</b>.
-					</li>
-
-					<li>
-					Understanding operational factors like <b>revenue, gross margins, utilisation etc </b> and how they factor into business decisions. 
-					</li>
-
-					<li>
-					The team adapted the <b>Kanban Process</b> after which we were able to visibly see the increased rate in delivery of features.
-					</li>
-
-					<li>
-					The infrastructure went through a <b>migration to Amazon Web Services(AWS)</b> which gave me the opportunity to help set up the systems from scratch in a new environment. 
-					</li>
-
-					<li>
-					Building a <b>Continuous Integration</b> environment and <b>Continuous Deployment</b> pipelines from scratch using GO.
-					</li>
-
-					<li>
-					Clojure (Functional Programming)
-					</li>
-
-					<li>
-					Angular JS
-					</li>
-
-					<li>
-					D3
-					</li>
-
-					<li>
-					ClojureScript
-					</li>
-				</ul>
-			</div>
-
-			<h1 class="expandable project_header">Trainline </h1>
-
-			<div class="toggle_visibility">
-				<h2>Description :</h2> 
-				<p>A leading train ticket selling retailer in the UK. </p>
-
-
-				<h2>Duration of Participation : </h2>
-				<p>3 - 4 months. </p>
-
-
-				<h2>Role played :</h2>
-				<p> Developer</p>
-
-
-				<h2>Learnings : </h2>
-				<ul>
-					<li>
-					It  was a <b>huge infrastructure</b> and system and understanding this system in itself was a challenge, but once I was got a grasp on it, I was able to understand what goes into creating a stable infrastructure this huge.
-					</li>
-
-					<li>
-					Along with the infrastructure, the codebase also was immense and legacy. Being on this project helped me to understand how to wade through this large codebase. I also learnt the importance of <b>well designed code and test driven development</b>, as it is clearly visible in large codebases like these where which require the code to be self - explanatory and easy to navigate. 
-					</li>
-
-					<li>
-					Half the team was located in a different country in a different time zone. Working on this project helped me to understand how to coordinate and <b>work with the team remotely</b>. 
-					</li>
-
-					<li>
-					I was able to get a peek into the <b>retail industry</b> and some of the business decisions that go into it.
-					</li>
-
-					<li>
-					C#
-					</li>
-
-					<li>
-					Team City 
-					</li>
-				</ul>
-			</div>
+			
 		</div>
 	</body>
 	<script src="js/script.js"></script>
