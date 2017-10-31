@@ -3,7 +3,7 @@
 	margin-bottom: 0em;
 }
 
-.solution_images {
+.solution_image {
     width: 25em;
     height: 15.625em;
 }
@@ -14,4 +14,9 @@
 
 a:before {
 	background-color: #6318e0;
+}
+
+.persona_image {
+	width: 25em;
+	height: 22em;
 }

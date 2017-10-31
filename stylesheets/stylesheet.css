@@ -108,7 +108,7 @@ img {
   width: 30%;
 }
 
-.image_column > .image {
+.image_column > .image_link > img {
   width: 10em;
   height: 10em;
   margin-left: 15em;
@@ -148,6 +148,12 @@ a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.image_link:hover:before {
+  visibility: hidden;
+  -webkit-transform: none;
+  transform: none;
 }
 
 .work {
