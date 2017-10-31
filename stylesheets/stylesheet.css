@@ -25,7 +25,6 @@ hr {
 html {
   font-family:lucida grande;
   line-height: 1.5em;
-  /*background: #f9f9fb;*/
   color: #362651; 
   box-sizing: border-box;
 }
@@ -36,7 +35,7 @@ body {
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 1.5em;
 }
 
 h1 {
@@ -61,7 +60,7 @@ h1 {
     display: block;
 }
 
-.wireframes {
+.images {
   display: block;
   text-align: center;
 }
@@ -161,4 +160,21 @@ a:hover:before {
 .subheading {
   margin-left: 4em;
   font-size: 1.25em;
+}
+
+.image_title {
+  text-align: center;
+  font-style: italic;
+}
+
+.center_align {
+  text-align: center;
+}
+
+.shadow {
+  box-shadow: -0.25em 0.25em 2em #888888
+}
+
+.section {
+  margin-bottom: 5em;
 }

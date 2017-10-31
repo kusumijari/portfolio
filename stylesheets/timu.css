@@ -1,0 +1,17 @@
+.old_home_page {
+	width: 40em;
+	margin-bottom: 0em;
+}
+
+.solution_images {
+    width: 25em;
+    height: 15.625em;
+}
+
+.hyperlink {
+	color: #6318e0;
+}
+
+a:before {
+	background-color: #6318e0;
+}
