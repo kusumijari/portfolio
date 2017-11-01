@@ -163,11 +163,6 @@ a:hover:before {
   margin-right: 10em;
 }
 
-.subheading {
-  margin-left: 4em;
-  font-size: 1.25em;
-}
-
 .image_title {
   text-align: center;
   font-style: italic;
@@ -183,4 +178,17 @@ a:hover:before {
 
 .section {
   margin-bottom: 5em;
+}
+
+.subheading_container {
+  border-top: solid;
+  border-bottom: solid;
+  border-width: thin;
+  margin-bottom: 4em;
+}
+
+.subheading {
+    font-size: 1.75em;
+    color: #362652;
+    text-align: center;
 }
