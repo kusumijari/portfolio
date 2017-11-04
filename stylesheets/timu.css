@@ -20,3 +20,20 @@ a:before {
 	width: 25em;
 	height: 22em;
 }
+
+.old_vs_new {
+	display: inline-block;
+}
+
+.comparison_image {
+	width: 30em;
+	height: 18.75em;
+}
+
+.information_architecture {
+	width: 30em;
+}
+
+.sketch {
+	height: 12em;
+}
