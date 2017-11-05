@@ -1,3 +1,29 @@
 body{
 	margin: 4em;
 }
+
+.transition_image {
+  width: 215px;
+  height: 345px;
+  margin-left: 5em;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 4em;
+  font-size: 3em;
+}
+
+.wireframe_image {
+  width: 300px;
+  height: 335px;
+}
+
+.mockup_image {
+  width: 10em;
+}
+
+.user_journey_image {
+    width: 475px;
+    align-content: center;
+}
