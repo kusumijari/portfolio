@@ -177,3 +177,7 @@ a:hover:before {
 .left {
   float: left;
 }
+
+.hyperlink {
+  color: #6318e0;
+}

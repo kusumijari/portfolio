@@ -8,10 +8,6 @@
     height: 15.625em;
 }
 
-.hyperlink {
-	color: #6318e0;
-}
-
 a:before {
 	background-color: #6318e0;
 }
