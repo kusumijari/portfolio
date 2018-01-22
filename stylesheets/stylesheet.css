@@ -19,6 +19,7 @@ hr {
 .email {
   text-align: left;
   font-size: medium;
+  margin-top: 2em;
 }
 
 html {
@@ -26,6 +27,9 @@ html {
   line-height: 1.5em;
   color: #362651; 
   box-sizing: border-box;
+  border: solid;
+  border-width: 5em;
+  border-image: url("../Images/background_image.png") 30;
 }
 
 body {
@@ -88,7 +92,7 @@ img {
 }
 .title_column {
   float: right;
-  width: 70%;
+  width: 65%;
   margin-top: 5em;
 }
 

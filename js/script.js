@@ -3,3 +3,10 @@ $(".expandable").click(function () {
     $content = $header.next();
     $content.slideToggle(750);
 });
+
+$(function() {
+    $('.carousel').jcarousel({
+    	console.log("Carousel called");
+        // Configuration goes here
+    });
+});
