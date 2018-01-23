@@ -33,35 +33,3 @@ a:before {
 .sketch {
 	height: 12em;
 }
-
-/** Carousel **/
-
-.jcarousel-wrapper {
-    position: relative;
-    height: 20em; 
-    margin: 0 auto;
-}
-   
-
-.jcarousel {
-	overflow: hidden;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-}
-    
-.jcarousel-wrapper ul {
-	padding: 0;
-    margin: 0;
-    position: relative;
-}
-    
-.jcarousel-wrapper li {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	position: absolute;
-}
-
