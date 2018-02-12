@@ -4,9 +4,3 @@ $(".expandable").click(function () {
     $content.slideToggle(750);
 });
 
-$(function() {
-    $('.carousel').jcarousel({
-    	console.log("Carousel called");
-        // Configuration goes here
-    });
-});

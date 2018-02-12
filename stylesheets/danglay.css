@@ -1,7 +1,3 @@
-body{
-	margin: 4em;
-}
-
 .transition_image {
   width: 215px;
   height: 390px;
@@ -26,4 +22,8 @@ body{
 .user_journey_image {
     width: 475px;
     align-content: center;
+}
+
+.danglay_video {
+  height: 32em;
 }

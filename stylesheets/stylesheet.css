@@ -2,6 +2,10 @@
   margin: 4em;
 }
 
+.container{
+  margin: 4em;
+}
+
 hr {
     border-color: #362651;
 }
@@ -27,8 +31,6 @@ html {
   line-height: 1.5em;
   color: #362651; 
   box-sizing: border-box;
-  border: solid;
-  border-width: 5em;
   border-image: url("../Images/Background 2.png") 30;
 }
 
@@ -100,13 +102,17 @@ img {
   font-size: 1.5em;
 }
 
-a {
+.link {
+  text-decoration: none;
+}
+
+.link_transition {
   text-decoration: none;
   color: #362651;
   position: relative;
 }
 
-a:before {
+.link_transition:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -121,7 +127,7 @@ a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover:before {
+.link_transition:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -131,13 +137,6 @@ a:hover:before {
   visibility: hidden;
   -webkit-transform: none;
   transform: none;
-}
-
-.work {
-  margin-top: 4em;
-  margin-bottom: 4em;
-  margin-left: 10em;
-  margin-right: 10em;
 }
 
 .image_title {
@@ -157,11 +156,25 @@ a:hover:before {
   margin-bottom: 5em;
 }
 
+.white {
+  color:white;
+}
+
+.nav {
+  border-top: solid;
+  border-bottom: solid;
+  border-width: thin;
+  padding: 1em;
+}
+
 .subheading_container {
   border-top: solid;
   border-bottom: solid;
   border-width: thin;
   margin-bottom: 4em;
+}
+
+.gradient {
   border-color: rgba(1,1,1,0);
   background: linear-gradient(to bottom left, rgba(188,78,156,0.5), rgba(248,7,89,0.5));
 }
