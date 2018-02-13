@@ -3,6 +3,9 @@
 		<title>Danglay</title>
 		<link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="../stylesheets/danglay.css">
+
+		<script src="../js/jquery-3.2.1.js"></script>
+		<script src="../js/script.js"></script>
 	</head>
 	<body>
 		<div class="nav gradient">
@@ -10,6 +13,18 @@
 		</div>
 
 		<div class="container">
+			<div id="modal" class="modal">
+
+	  			<!-- The Close Button -->
+	  			<span class="close">&times;</span>
+
+				<!-- Modal Content (The Image) -->
+				<img class="modal-content" id="img01">
+
+				<!-- Modal Caption (Image Text) -->
+				<div id="caption"></div>
+			</div>
+
 			<h1>Danglay</h1>
 
 			<p class="center_align">
@@ -30,15 +45,15 @@
 				<h2>Solution :</h2>
 
 				<div class="center_align">
-					<img class = "transition_image" src = "../Images/Danglay/Wireframes/Home_page.png">
+					<img class = "transition_image modalImage" src = "../Images/Danglay/Wireframes/Home_page.png">
 
 					<span class="arrow">&#8594;</span>
 
-					<img class="transition_image" src = "../Images/Danglay/Mockups/Home_page.png">
+					<img class="transition_image modalImage" src = "../Images/Danglay/Mockups/Home_page.png">
 
 					<span class="arrow">&#8594;</span>
 
-					<img class = "transition_image" src = "../Images/Danglay/Final Mockups/Search Page - Contracted cards.png">
+					<img class = "transition_image modalImage" src = "../Images/Danglay/Final Mockups/Search Page - Contracted cards.png">
 				</div>
 			</div>
 
@@ -62,7 +77,7 @@
 				<h2>User Journey :</h2>
 
 				<div class="center_align">
-					<img class="user_journey_image" src = "../Images/Danglay/User_journey.png">
+					<img class="user_journey_image modalImage" src = "../Images/Danglay/User_journey.png">
 				</div>
 			</div>
 
@@ -73,11 +88,11 @@
 				</p>	         
 
 				<span class="images">
-					<img class = "wireframe_image" src = "../Images/Danglay/Wireframes/Home_page.png">
+					<img class = "wireframe_image modalImage" src = "../Images/Danglay/Wireframes/Home_page.png">
 
-					<img class = "wireframe_image" src = "../Images/Danglay/Wireframes/Create_pool_page.png">
+					<img class = "wireframe_image modalImage" src = "../Images/Danglay/Wireframes/Create_pool_page.png">
 
-					<img class = "wireframe_image" src = "../Images/Danglay/Wireframes/Home_page_with_pool.png">
+					<img class = "wireframe_image modalImage" src = "../Images/Danglay/Wireframes/Home_page_with_pool.png">
 				</span>
 
 			</div>
@@ -120,21 +135,21 @@
 				</p>
 
 				<span class="images">
-					<img class="mockup_image" src = "../Images/Danglay/Mockups/Home_page.png">
+					<img class="mockup_image modalImage" src = "../Images/Danglay/Mockups/Home_page.png">
 
-					<img class="mockup_image" src = "../Images/Danglay/Mockups/Expanded_cab_card.png">
+					<img class="mockup_image modalImage" src = "../Images/Danglay/Mockups/Expanded_cab_card.png">
 
-					<img class="mockup_image" src = "../Images/Danglay/Mockups/Request_sent.png">
+					<img class="mockup_image modalImage" src = "../Images/Danglay/Mockups/Request_sent.png">
 
-					<img class="mockup_image" src = "../Images/Danglay/Mockups/Create_a_pool_page.png">
+					<img class="mockup_image modalImage" src = "../Images/Danglay/Mockups/Create_a_pool_page.png">
 
-					<img class="mockup_image" src = "../Images/Danglay/Mockups/Create_a_pool_page_route_addition.png">
+					<img class="mockup_image modalImage" src = "../Images/Danglay/Mockups/Create_a_pool_page_route_addition.png">
 
-					<img class="mockup_image" src = "../Images/Danglay/Mockups/Cab_pool_created.png">
-
-					<img class="mockup_image" src = "../Images/Danglay/Mockups/My_ride_page.png">
-
-					<img class="mockup_image" src = "../Images/Danglay/Mockups/Notification_page.png">
+					<img class="mockup_image modalImage" src = "../Images/Danglay/Mockups/Cab_pool_created.png">
+ 
+					<img class="mockup_image modalImage" src = "../Images/Danglay/Mockups/My_ride_page.png">
+ 
+					<img class="mockup_image modalImage" src = "../Images/Danglay/Mockups/Notification_page.png">
 				</span>
 			</div>
 
@@ -176,23 +191,23 @@
 				<p>Keeping the above things in mind the following solution was created. </p>	
 
 				<span class="images">
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/Search Page - Contracted cards.png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/Search Page - Contracted cards.png">
 
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/Search Page - Expanded card .png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/Search Page - Expanded card .png">
 
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/Request sent notification.png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/Request sent notification.png">
 
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/Create new cab.png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/Create new cab.png">
 
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/Create new cab - route addition.png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/Create new cab - route addition.png">
 
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/My Account.png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/My Account.png">
 
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/Search Page - Contracted cards - with notification.png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/Search Page - Contracted cards - with notification.png">
 
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/Notification Page.png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/Notification Page.png">
 
-					<img class = "mockup_image" src = "../Images/Danglay/Final Mockups/Notification Page Accepted.png">
+					<img class = "mockup_image modalImage" src = "../Images/Danglay/Final Mockups/Notification Page Accepted.png">
 				</span>		
 			</div>
 		</div>
