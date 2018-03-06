@@ -1,5 +1,8 @@
 .header {
   margin: 4em;
+  padding-right: 15em;
+  padding-left: 15em;
+
 }
 
 .container{
@@ -28,7 +31,7 @@ hr {
 
 html {
   font-family:lucida grande;
-  line-height: 1.5em;
+  line-height: 1.8em;
   color: #362651; 
   box-sizing: border-box;
   border-image: url("../Images/Background 2.png") 30;
@@ -285,3 +288,62 @@ img {
         width: 100%;
     }
 }
+
+
+textarea {
+  display: none;
+}
+
+.icon {
+  width: 2em;
+  box-shadow: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin: 0;
+  margin-right: 1.5em;
+}
+
+.ficon {
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.email {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  color: #362651;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*Tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
