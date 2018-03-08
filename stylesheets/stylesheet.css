@@ -27,6 +27,10 @@ hr {
   text-align: left;
   font-size: medium;
   margin-top: 2em;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  color: #362651;
 }
 
 html {
@@ -34,7 +38,6 @@ html {
   line-height: 1.8em;
   color: #362651; 
   box-sizing: border-box;
-  border-image: url("../Images/Background 2.png") 30;
 }
 
 body {
@@ -48,17 +51,6 @@ h2 {
 
 h1 {
   text-align: center;
-}
-
-.project_header {
-  border-top: solid;
-  border-bottom: solid;
-  border-bottom-width: thin;  
-  border-top-width: thin;
-  padding-bottom: 0.75em;
-  padding-top: 0.75em;
-  display: block;
-  cursor: pointer;
 }
 
 .images {
@@ -75,35 +67,8 @@ img {
 
 }
 
-.toggle_visibility {
-  display: none;
-}
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.image_column {
-  float: left;
-  width: 30%;
-}
-
-.image_column > .image_link > img {
-  width: 10em;
-  height: 10em;
-  margin-left: 15em;
-}
-.title_column {
-  float: right;
-  width: 65%;
-  margin-top: 5em;
-}
-
-.title_column > .title{
-  font-size: 1.5em;
-}
+/* Links */
 
 .link {
   text-decoration: none;
@@ -142,10 +107,7 @@ img {
   transform: none;
 }
 
-.image_title {
-  text-align: center;
-  font-style: italic;
-}
+/**************************/
 
 .center_align {
   text-align: center;
@@ -203,9 +165,6 @@ img {
 .hyperlink {
   color: #6318e0;
 }
-
-
-
 
 
 /* Style the Image Used to Trigger the Modal */
@@ -311,13 +270,6 @@ textarea {
   margin-left: 0.5em;
 }
 
-.email {
-  cursor: pointer;
-  border: none;
-  padding: 0;
-  color: #362651;
-}
-
 a {
   text-decoration: none;
 }
@@ -347,3 +299,38 @@ a {
     visibility: visible;
 }
 
+/*Project List*/
+.project_image {
+  width: 10em;
+}
+
+.row {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.project {
+  margin: 1.5em;  
+  width: 25 em;
+}
+
+/*Zoooom*/
+.zoom {
+    transition: transform .2s ease-in-out; /* Animation */
+    margin: 0 auto;
+    margin-bottom: 1.5em; 
+}
+
+.zoom:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.grow {
+    background-size: 100% 100%;
+    transition: all .5s ease;
+}
+
+.grow:hover {
+  font-size: 1.5em;
+}  
+}

@@ -29,3 +29,4 @@ $(".expandable").click(function () {
 	    }
     }   
 })(window, document);
+
