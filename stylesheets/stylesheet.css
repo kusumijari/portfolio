@@ -1,5 +1,5 @@
 .header {
-  margin: 4em;
+  margin-bottom: 4em;
   padding-right: 15em;
   padding-left: 15em;
 
@@ -23,6 +23,10 @@ hr {
   text-align: center;
 }
 
+.company {
+    color: #593E85 !important;
+}
+
 .email {
   text-align: left;
   font-size: medium;
@@ -36,13 +40,14 @@ hr {
 html {
   font-family:lucida grande;
   line-height: 1.8em;
-  color: #362651; 
+  color: #362651;
   box-sizing: border-box;
 }
 
 body {
-  background: white;  
-  margin: 0em;
+  background: white;
+  margin-left: 12em;
+  margin-right: 12em;
 }
 
 h2 {
@@ -58,7 +63,7 @@ h1 {
   text-align: center;
 }
 
-img { 
+img {
     margin-top:25px;
     margin-bottom:25px;
     margin-left: 1em;
@@ -127,9 +132,6 @@ img {
 }
 
 .nav {
-  border-top: solid;
-  border-bottom: solid;
-  border-width: thin;
   padding: 1em;
 }
 
@@ -138,17 +140,38 @@ img {
   border-bottom: solid;
   border-width: thin;
   margin-bottom: 4em;
+  border-color: white;
+  border-radius: 2em;
 }
 
 .gradient {
-  border-color: white;
-  background-image: url('../Images/Gradient background.png')
+  /* background-image: url('../Images/Gradient background.png') */
+  background-color: #EF8875;
+  background-image: linear-gradient(to bottom right, #EF8875, #EC745E);
+
 }
 
+/* .first {
+    margin-left: 12em;
+}
+
+.last {
+  margin-right: 12em;
+} */
 .subheading {
     font-size: 1.75em;
     color: white;
     text-align: center;
+}
+
+.header-link {
+    /* color: #EF8875; */
+    color: black;
+    font-size: 1.5em;
+}
+
+.header-link:hover {
+  color: #EC745E;
 }
 
 .inline_block {
@@ -214,13 +237,13 @@ img {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+.modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.4s;
 }
 
 @keyframes zoom {
-    from {transform:scale(0.8)} 
+    from {transform:scale(0.8)}
     to {transform:scale(1)}
 }
 
@@ -311,7 +334,7 @@ a {
 }
 
 .project {
-  margin: 1.5em;  
+  margin: 1.5em;
   width: 25 em;
 }
 
@@ -319,11 +342,11 @@ a {
 .zoom {
     transition: transform .2s ease-in-out; /* Animation */
     margin: 0 auto;
-    margin-bottom: 1.5em; 
+    margin-bottom: 1.5em;
 }
 
 .zoom:hover {
-    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.25); /* (125 % zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .grow {
@@ -333,5 +356,5 @@ a {
 
 .grow:hover {
   font-size: 1.5em;
-}  
+}
 }
