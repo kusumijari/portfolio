@@ -326,6 +326,7 @@ a {
 /*Project List*/
 .project_image {
   width: 10em;
+  border-radius: 1.5em;
 }
 
 .row {
