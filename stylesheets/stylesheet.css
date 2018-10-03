@@ -1,8 +1,7 @@
 .header {
   margin-bottom: 4em;
-  padding-right: 15em;
-  padding-left: 15em;
-
+  padding-right: 2em;
+  padding-left: 1em;
 }
 
 .container{
@@ -13,14 +12,19 @@ hr {
     border-color: #362651;
 }
 
+.contact {
+    padding-top: 1em;
+    padding-left: 6em;
+}
+
 .main_heading {
-  text-align:center;
-  font-size:40px;
+  font-size: 2.25em;
+  font-weight: bold;
   border: none;
 }
 
 .about_me {
-  text-align: center;
+  width: 40%;
 }
 
 .company {
@@ -178,6 +182,9 @@ img {
   display: inline-block;
 }
 
+.skills {
+  width: 40%;
+}
 .right {
   float: right;
 }
