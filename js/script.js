@@ -4,6 +4,23 @@ $(".expandable").click(function () {
     $content.slideToggle(750);
 });
 
+window.onscroll = function() {scrollFunction()};
+
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("topButton").style.display = "block";
+    } else {
+        document.getElementById("topButton").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 (function(window, document){
     window.onload = init;
     function init () {
@@ -21,12 +38,13 @@ $(".expandable").click(function () {
 	    });
 
 	    // Get the <span> element that closes the modal
-	    var span = document.getElementsByClassName("close")[0];
+	    var span = document.getElementsByClassName("close")[0] ;
 
 	    // When the user clicks on <span> (x), close the modal
-	    span.onclick = function() { 
-	      modal.style.display = "none";
-	    }
-    }   
+      if (span) {
+        span.onclick = function() {
+	         modal.style.display = "none";
+	      }
+      }
+    }
 })(window, document);
-

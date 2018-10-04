@@ -152,30 +152,25 @@ img {
   border-top: solid;
   border-bottom: solid;
   border-width: thin;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   border-color: white;
   border-radius: 2em;
 }
 
 .gradient {
   /* background-image: url('../Images/Gradient background.png') */
-  background-color: #EF8875;
-  background-image: linear-gradient(to bottom right, #074F57, #053A3F);
+  /* background-color: #EF8875;
+  background-image: linear-gradient(to bottom right, #074F57, #053A3F); */
 
 }
 
-/* .first {
-    margin-left: 12em;
-}
-
-.last {
-  margin-right: 12em;
-} */
 .subheading {
-    font-size: 1.75em;
-    color: white;
-    text-align: center;
+  font-size: 1.75em;
+  color: #593E85;
+  text-align: center;
+  margin-bottom: 0.5em;
 }
+
 
 .header-link {
     /* color: #EF8875; */
@@ -314,7 +309,10 @@ a {
   text-decoration: none;
 }
 
-
+hr {
+  opacity: 0.5;
+  color: #593E85;
+}
 /*Tooltip*/
 .tooltip {
     position: relative;
@@ -396,4 +394,20 @@ a {
 .float-my-children > * {
     float:left;
     margin-right:5px;
+}
+
+/* Top Button */
+#topButton {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: #593E85; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 2em; /* Increase font size */
+    display: none;
 }
