@@ -13,7 +13,6 @@ hr {
 }
 
 .contact {
-    padding-top: 1.5em;
     padding-left: 6em;
 }
 
@@ -25,6 +24,13 @@ hr {
 
 .about_me {
   width: 40%;
+}
+
+.left-arrow {
+  width: 0.8em;
+  box-shadow: none;
+  margin: 0;
+  margin-right: 0.25em;
 }
 
 .company {
@@ -42,7 +48,7 @@ hr {
 }
 
 html {
-  font-family:lucida grande;
+  font-family: 'Open Sans';
   line-height: 1.8em;
   color: #362651;
   box-sizing: border-box;
@@ -60,6 +66,7 @@ h2 {
 
 h1 {
   text-align: center;
+  line-height: 1.5em;
 }
 
 .images {
@@ -72,7 +79,7 @@ img {
     margin-bottom:25px;
     margin-left: 1em;
     margin-right: 1em;
-    box-shadow: -0.25em 0.25em 2em #888888
+    box-shadow: -0.25em 0.25em 2em #888888;
 
 }
 
@@ -129,6 +136,8 @@ img {
 
 .section {
   margin-bottom: 5em;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .white {
@@ -151,7 +160,7 @@ img {
 .gradient {
   /* background-image: url('../Images/Gradient background.png') */
   background-color: #EF8875;
-  background-image: linear-gradient(to bottom right, #EF8875, #EC745E);
+  background-image: linear-gradient(to bottom right, #074F57, #053A3F);
 
 }
 
@@ -365,4 +374,26 @@ a {
 .grow:hover {
   font-size: 1.5em;
 }
+}
+
+
+
+/* Clearfix */
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.float-my-children > * {
+    float:left;
+    margin-right:5px;
 }

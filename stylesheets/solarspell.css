@@ -1,0 +1,89 @@
+/* .video {
+  position: absolute;
+  width: 60%;
+	height: 60%;
+  top:0;
+  left: 20%;
+	border: 0.4em solid #ddd;
+}
+
+.vid_container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+} */
+
+.vid_container {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+    align-self: center;
+}
+.vid_container iframe {
+    background: url("../Images/Mac_skin.png") center center no-repeat;
+    border: none;
+    box-sizing: border-box;
+    background-size: contain;
+    padding: 8.4% 15.7% 18.7% 15.3%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.mac_skin {
+  height: 32em;
+  box-shadow: none;
+}
+
+
+.background {
+  background-image: linear-gradient(to bottom right, #76B1DE, #6a9fc7);
+  border-radius: 2em;
+  box-shadow: -0.25em 0.25em 2em #888888;
+  color: white;
+  padding: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+}
+
+.user_needs{
+  box-shadow: none;
+  width: 35em;
+}
+
+.wireframe {
+  height: 10em;
+}
+
+.mockup_left {
+  height: 25em;
+  box-shadow: none;
+  margin-left: -10em;
+  float: left;
+}
+
+.mockup_right {
+  height: 25em;
+  box-shadow: none;
+  margin-right: -10em;
+  float: right;
+}
+
+.mockup_text {
+  font-family: 'Asap', sans-serif;
+  font-size: 2em;
+  color: #9EC1DA;
+  font-weight: 800;
+}
+
+.text_center {
+  display:                 flex;
+  display:                 -webkit-flex; /* Safari 8 */
+  align-items: center;
+}
