@@ -41,11 +41,21 @@
 }
 
 
-.background {
+.background_blue {
   background-image: linear-gradient(to bottom right, #76B1DE, #6a9fc7);
   border-radius: 2em;
   box-shadow: -0.25em 0.25em 2em #888888;
   color: white;
+  padding: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+}
+
+.background_gray {
+  background:  #F2F2F2;
+  border-radius: 2em;
+  box-shadow: -0.25em 0.25em 2em #888888;
   padding: 0.5em;
   padding-left: 3em;
   padding-right: 3em;
@@ -86,4 +96,23 @@
   display:                 flex;
   display:                 -webkit-flex; /* Safari 8 */
   align-items: center;
+}
+
+.b_heading {
+  font-family: "Asap";
+  color: #75B2DD;
+  font-size: 2em;
+  text-align: center;
+}
+
+.b_body {
+  font-family: "Calibri";
+  color: black;
+  font-size: 2em;
+  text-align: center;
+}
+
+.branding {
+  width: 88%;
+  box-shadow: none;
 }
