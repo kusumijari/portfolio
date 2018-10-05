@@ -8,6 +8,11 @@
   margin: 4em;
 }
 
+.flex_center {
+  display: flex;
+  justify-content: center;
+}
+
 hr {
     border-color: #362651;
 }
@@ -313,6 +318,7 @@ hr {
   opacity: 0.5;
   color: #593E85;
 }
+
 /*Tooltip*/
 .tooltip {
     position: relative;
@@ -346,6 +352,7 @@ hr {
 .row {
   display: inline-flex;
   align-items: baseline;
+  width: 16em;
 }
 
 .project {
@@ -395,6 +402,13 @@ hr {
     float:left;
     margin-right:5px;
 }
+
+.text_center {
+  display:                 flex;
+  display:                 -webkit-flex; /* Safari 8 */
+  align-items: center;
+}
+
 
 /* Top Button */
 #topButton {
