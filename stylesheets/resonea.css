@@ -9,6 +9,23 @@
   padding-bottom: 3em;
 }
 
+.background_gray {
+  border-radius: 2em;
+  box-shadow: -0.25em 0.25em 2em #888888;
+  padding: 3em;
+}
+
+.background_gray > h1 {
+  color: #8B245D;
+}
+
+.pink {
+  color: #8B245D;
+}
+.intro {
+  margin-top: 3em;
+}
+
 .avatar {
   box-shadow: none;
   width: 15em;
@@ -46,6 +63,7 @@
 
 .mind_map {
   width: 30em;
+  box-shadow: none;
 }
 
 .user_journey {
