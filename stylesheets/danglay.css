@@ -24,33 +24,20 @@
     align-content: center;
 }
 
-.danglay_video {
-  height: 32em;
-}
-
 .vid_container {
-    position: relative;
-    padding-top: 25px;
-    padding-bottom: 51.5%;
-    height: 0;
-    align-self: center;
+    background-image: url("../Images/iPhone_skin.png");
+    background-repeat:no-repeat;
+    width: 25em;
+    height: 32em;
+    padding-top: 4em;
+    padding-left: 3em;
+    overflow:hidden;
+    margin-left: 32%;
+    margin-bottom: 1em;
 }
 
 .vid_container iframe {
-    background: url("../Images/iPhone_skin.png") center center no-repeat;
-    border: none;
-    box-sizing: border-box;
-    background-size: contain;
-    /* padding: 6.4% 68.7% 11.7% 11.3%; */
-    padding: 8.4% 15.7% 18.7% 15.3%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+    height: 26em;
+    width: 14.5em;
 
-.mac_skin {
-  height: 32em;
-  box-shadow: none;
 }
