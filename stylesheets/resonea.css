@@ -70,3 +70,14 @@
   width: 35em;
   box-shadow: none;
 }
+
+.bullet {
+  box-shadow: none;
+  width: 4em;
+  height: 4em;
+}
+
+.bullet_point {
+  display: flex;;
+  align-items: center;
+}
