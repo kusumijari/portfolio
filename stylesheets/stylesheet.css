@@ -32,6 +32,10 @@ hr {
   border: none;
 }
 
+b {
+  font-weight: bold;
+}
+
 .about_me {
   width: 55%;
 }
