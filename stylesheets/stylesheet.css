@@ -22,7 +22,8 @@ hr {
 }
 
 .contact {
-    padding-left: 6em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .main_heading {
@@ -205,7 +206,7 @@ img {
 }
 
 .skills {
-  width: 40%;
+  width: 35%;
 }
 
 .right {
