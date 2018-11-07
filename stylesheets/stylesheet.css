@@ -101,6 +101,7 @@ img {
     margin-left: 1em;
     margin-right: 1em;
     box-shadow: -0.25em 0.25em 2em #888888;
+    max-width: -webkit-fill-available;
 
 }
 
