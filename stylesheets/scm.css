@@ -1,6 +1,6 @@
 .design_process {
-  width: 37em;
   box-shadow: none;
+  max-width: -webkit-fill-available;
 }
 
 .background_green {
