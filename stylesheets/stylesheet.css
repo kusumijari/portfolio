@@ -9,10 +9,20 @@ html, body {
   margin-bottom: 4em;
   padding-right: 2em;
   padding-left: 1em;
+  margin-top: 2em;
 }
 
+.main_nav {
+  font-size: 2.25em;
+  display: inline-flex;
+}
 .container{
   margin: 4em;
+}
+
+.resume {
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .flex {
@@ -34,7 +44,6 @@ hr {
 }
 
 .main_heading {
-  font-size: 2.25em;
   font-weight: bold;
   border: none;
 }
@@ -148,7 +157,7 @@ img {
 
 
 .first_icon {
-  margin-left: 5em;
+  margin-left: 10em;
 }
 
 .last_icon {
