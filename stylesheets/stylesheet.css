@@ -23,6 +23,7 @@ html, body {
 .resume {
   flex: 1;
   justify-content: flex-end;
+  color: #362651;
 }
 
 .flex {
