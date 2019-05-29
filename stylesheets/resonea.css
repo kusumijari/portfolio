@@ -1,17 +1,15 @@
 .background_pink {
   background-image: linear-gradient(to bottom right, #8B245D, #7B1F52);
-  border-radius: 2em;
-  box-shadow: -0.25em 0.25em 2em #888888;
   color: white;
-  padding: 0.5em;
-  padding-left: 3em;
-  padding-right: 3em;
+  margin-left: -20%;
+  margin-right: -20%;
+  padding-left: 30%;
+  padding-right: 30%;
   padding-bottom: 3em;
-}
+  padding-top: 3em;}
 
 .background_gray {
   border-radius: 2em;
-  box-shadow: -0.25em 0.25em 2em #888888;
   padding: 3em;
 }
 
