@@ -374,6 +374,11 @@ textarea {
 
 a {
   text-decoration: none;
+  color: #292135 !important;
+}
+
+a:hover {
+  color: #53456b !important;
 }
 
 hr {
