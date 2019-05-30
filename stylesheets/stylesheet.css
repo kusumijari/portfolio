@@ -45,7 +45,7 @@ hr {
 }
 
 .main_heading {
-  font-weight: bold;
+  font-size: 3em;
   border: none;
 }
 
@@ -54,11 +54,11 @@ b {
 }
 
 .about_me {
-  width: 100%;
-  padding-left: 10%;
-  padding-right: 20%;
+  display: inline-block;
+  text-align: left;
+  line-height: 1.8em;
+  width: 75%;
   margin-top: 5%;
-  text-align: center;
 }
 
 .left-arrow {
@@ -85,7 +85,7 @@ b {
 html {
   font-family: 'Open Sans';
   line-height: 1.8em;
-  color: #362651;
+  color: #292135;
   box-sizing: border-box;
 }
 
