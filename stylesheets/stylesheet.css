@@ -13,17 +13,17 @@ html, body {
 }
 
 .main_nav {
-  font-size: 2.25em;
-  display: inline-flex;
+  font-size: 1em;
+  margin-bottom: 2em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
 }
 .container{
   margin: 4em;
-}
-
-.resume {
-  flex: 1;
-  justify-content: flex-end;
-  color: #362651;
 }
 
 .flex {
@@ -33,6 +33,13 @@ html, body {
 .flex_center {
   display: flex;
   justify-content: center;
+}
+
+.flex_item {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  color: #292135 !important;
 }
 
 hr {
