@@ -30,3 +30,41 @@
   padding-bottom: 3em;
   color: #083C3B;
 }
+
+.image_left {
+  box-shadow: none;
+  margin-left: -10em;
+  float: left;
+}
+
+.image_right {
+  box-shadow: none;
+  margin-right: -10em;
+  float: right;
+}
+
+.image_text {
+  font-size: 1em;
+  text-align: left;
+  margin-right: 2em;
+}
+
+.image_heading {
+  color: #083C3B;
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: 600;
+}
+
+
+.tabletop {
+  width: 25em;
+}
+
+.mockup {
+  width: 12em;
+}
+
+.feedback {
+  width: 20em;
+}
